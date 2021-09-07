@@ -16,7 +16,12 @@ header {
 header img {
 	margin-bottom: 15px;
 } 
-
+main {
+	background-image: url(../media/fondo.jpg) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
 @media screen and (max-width: 1020px) {
 	.navbar-custom {
 	  background-color: grey;
@@ -33,7 +38,7 @@ header img {
 body{
 	margin: 0;
 	font-family:Nunito Sans;
-	}
+}
 h3{
 	text-align: center;
 	font-size: 30px;
@@ -63,6 +68,7 @@ a{
 	padding-top: 10px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	transition: .4s;
+	background: rgb(213, 219, 178);
 }
 .content:hover{
 	box-shadow: 0 0 11px rgba(33,33,33,.2);
@@ -76,28 +82,13 @@ img{
 	margin: 0 auto;
 	display: block;
 }
-p{
-	text-align: center;
-	color: #b2bec3;
-	padding: 0 8px;
-}
-h6{
+h6 {
 	font-size: 26px;
 	text-align: center;
 	color: #222f3e;
 	margin: 0;
 }
-ul{
-	list-style-type: none;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 0px;
-}
-li{
-	padding: 5px;
-}
-.fa{
+.fa {
 	color: #ff9f43;
 	font-size: 26px;
 	transition: .4s;
@@ -136,5 +127,36 @@ button{
 @media(max-width: 750px){
 	.content{
 	width: 100%;
+	}
+}
+p {
+	color: white;
+	font-size: 1.5rem;
+	font-family: 'Roboto', sans-serif;
+}  
+footer {
+	background-color: #505050;
+	border-top: 2px solid black;
+} 
+footer ul {
+	color: black;
+	color: white;
+	list-style-type: none;
+	font-size: 16px; 
+}
+@media(min-width: 750px){
+	h2 {
+		padding: 15px;
+		text-align: center;
+		font-size: 5rem;
+		color: white;
+		font-style: italic;
+		font-family: 'Dancing Script', cursive;
+	}
+	h3 {
+		font-family: 'Dancing Script', cursive;
+		font-family: 'Pacifico', cursive;
+		text-align: center;
+		font-size: 4rem;
 	}
 }
