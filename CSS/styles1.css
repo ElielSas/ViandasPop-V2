@@ -54,7 +54,7 @@ a{
 	width: 100%;
 	justify-content: center;
 	align-items: center;
-	margin: 50px 0;
+	padding: 50px 0;
 }
 .content{
 	width: 24%;
@@ -136,13 +136,16 @@ p {
 }  
 footer {
 	background-color: #505050;
-	border-top: 2px solid black;
+	border-top: 3px solid black;
+	height: 400px;
+	text-align: left;
 } 
-footer ul {
+footer il {
 	color: black;
 	color: white;
 	list-style-type: none;
-	font-size: 16px; 
+	font-size: 3rem;
+	 
 }
 @media(min-width: 750px){
 	h2 {
@@ -159,4 +162,11 @@ footer ul {
 		text-align: center;
 		font-size: 4rem;
 	}
+}
+.footerImg {
+	height: 40px;
+	width: 40px;
+}
+.container {
+	display: flexbo;
 }
